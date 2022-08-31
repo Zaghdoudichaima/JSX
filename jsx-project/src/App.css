@@ -1,0 +1,30 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.App:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+  margin-top: 100px;
+  color: rgb(73, 73, 223); 
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: solid;
+  text-align: center;
+}
+h2{
+  margin-top: 50px;
+  color: rgb(64, 64, 180); 
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: solid;
+  text-align: center;
+}
+.img{
+  width :80%;
+  height:600px;
+  margin:0px;
+}
